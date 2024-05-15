@@ -3,8 +3,8 @@
 use PHPHtmlParser\Dom;
 
 include "vendor/autoload.php";
-$concertUrl='https://www.auditorium-lyon.com/fr/saison-2023-24/symphonique/tchaikovski-pathetique';
-//$concertUrl = $_GET['url'];
+//$concertUrl='https://www.auditorium-lyon.com/fr/saison-2023-24/symphonique/tchaikovski-pathetique';
+$concertUrl = $_GET['url'];
 $baseURL='https://www.auditorium-lyon.com';
 
 $page = file_get_contents($concertUrl);
